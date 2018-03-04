@@ -1,0 +1,7 @@
+server:
+  port: 8443
+  ssl.key-alias: selfsigned_localhost_sslserver
+  ssl.key-password: changeit
+  ssl.key-store: classpath:ssl-server.jks
+  ssl.key-store-provider: SUN
+  ssl.key-store-type: JKS
